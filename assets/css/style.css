@@ -1,13 +1,12 @@
 /*=============== GOOGLE FONTS ===============*/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 /*============== VARIABLES CSS ===============*/
 
 :root {
     --header-height: 3rem ;
 
-    
 /*================ COLORS ===================*/
 /* Change favorite color */
 
@@ -24,7 +23,9 @@
 --text-color-light: hsl(var(--hue-color), 8%, 65%);
 --input-color: hsl(var(--hue-color), 70%, 96%);
 --body-color:  hsl(var(--hue-color), 60%, 99%);
---container-color: #FFF;
+--container-color: #fff;
+--scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+--scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
 /* ============ Font and typography ========== */
 
@@ -129,6 +130,7 @@ img{
 
 .section_title{
     font-size: var(--h1-font-size);
+    color: var(--title-color);
 }
 
 .section_subtitle{
